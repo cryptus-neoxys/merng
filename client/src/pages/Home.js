@@ -5,10 +5,9 @@ import { Grid } from "semantic-ui-react";
 import PostCard from "../components/PostCard";
 
 const Home = () => {
-  const {
-    loading,
-    data: { getPosts: posts },
-  } = useQuery(FETCH_POST_QUERY);
+  const { loading, data } = useQuery(FETCH_POST_QUERY);
+
+  const posts = data.getPosts;
 
   if (posts) {
     console.log(posts);
