@@ -99,7 +99,10 @@ function SinglePost(props) {
                 <Button
                   as='div'
                   labelPosition='right'
-                  onClick={() => console.log("Comment on post")}>
+                  onClick={() => {
+                    commentInputRef.current.focus();
+                    console.log("Comment on post");
+                  }}>
                   <Popup
                     inverted
                     content='Like Post'
