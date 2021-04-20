@@ -3,5 +3,5 @@
 ## Backend API
 <a href="https://devs-social-media.herokuapp.com/">API</a>
 
-## Frontend API
+## Frontend
 <a href="https://devs-social-media.vercel.app/">Frontend</a>
